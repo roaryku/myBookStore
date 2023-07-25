@@ -8,13 +8,6 @@ search.addEventListener('keyup', (e) => {
         ? (item.style.display = "block")
         : (item.style.display = "none")
     })
-
-    const par = e.target.value.toLowerCase();
-    myBooks.forEach(itemTwo => {
-        itemTwo.querySelector('p').textContent.toLowerCase().includes(par)
-        ? (itemTwo.style.display = "block")
-        : (itemTwo.style.display = "none")
-    })
 })
 
 
