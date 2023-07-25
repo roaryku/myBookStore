@@ -1,0 +1,67 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1517770413964-df8ca61194a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-color: #c3c8c7;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+    color: rgb(149, 59, 101);
+    font-family: 'Pangolin', cursive;
+}
+#search{
+    display: flex;
+    justify-content: center;
+}
+#inputSearch{
+    width: 50%;
+    padding: 20px;
+    border: none;
+    font-family: 'Pangolin', cursive;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+.bookSearch{
+    background-color: #fffdfc;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
+h3{
+    color: rgb(149, 59, 101);
+    font-size: 25px;
+    font-family: 'Pangolin', cursive;
+}
+p{
+    color: #070707;
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+}
+span{
+    display: block;
+    font-size: 15px;
+    color: #6f7f8c;
+}
+.btn{
+    margin-bottom: 15px;
+    background-color: #93a770;
+    padding: 10px;
+    border: none;
+    font-family: 'Pangolin', cursive;
+}
+a{
+    text-decoration: none;
+    color: #fffdfc;
+}
